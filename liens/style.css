@@ -1,0 +1,6 @@
+.code{
+    color: pink;
+    background: grey;
+    display: inline-block;/*permet de définir une largeur et une hauteur sur l'élement*/
+    font-style: italic;
+}

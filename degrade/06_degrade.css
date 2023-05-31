@@ -1,0 +1,10 @@
+.contenu{
+    height: 45em;/* hauteur */
+    width: 45em;/* largeur */
+    margin: auto;/* centre automatique la balise */
+    border-radius: 50%;/* arrondie les angles */
+    background: linear-gradient(to left, pink, purple);/* degrade de couleur qui demarre de a droite(rose) et qui va vers la gauche (violet) */
+    /* lien vers un generateur de degradès: https://cssgradient.io/ */
+    
+}
+/*  */

@@ -1,0 +1,77 @@
+/* commentaire en CSS */
+
+*
+/* l'etoile ou asterisque signifie qu'on selection tout le doc, c'est un sélécteur universel */
+{ 
+   text-align: right;
+    
+}
+
+body{
+    background-color: #f5deb3; 
+    /* couleur du fond */
+
+}
+
+header
+{
+    background-color: #900c3f;
+    color: #fff; 
+    /* couleurde txt */
+    height: 100px;
+    /* heuteur fixee a 100 pixel */
+}
+nav
+{
+    background-color: #daf7a6;
+}
+ 
+section{
+    background: navy;
+    height: 550px;
+}
+
+article{
+    background-color: #ff5733;
+    height: 65px;
+}
+
+footer{
+    background-color: darkgreen;
+    height: 75px;
+}
+
+nav, footer/* selecteur */{
+    /* je separe les differents balises à selectionner par des virgules*/
+    color: hotpink;
+}
+
+.jaune/* selecteur */{
+/* pour sélectionner une class en CSS, j'utilise un point avant le nom que je lui ai donné */
+    background-color: darkred;
+}
+
+#noir /* selecteur */ {
+    /* pour cibler l'id, j'utilise un '#' */
+    background-color: dimgray;
+    color: lightseagreen;
+    text-align: justify;
+    font-size: 25px;
+}
+
+/* selecteur= class, id, balise ....
+   propriété= color, txt-aligne...
+   valeur= black, justify ... */
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

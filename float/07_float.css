@@ -1,0 +1,54 @@
+body{
+    margin: 0 auto;
+/*  
+margin:0 auto 0 auto; -> haut droite ,bas  gauche
+margin:0 auto 1; ->haut | horizontal | bas
+     */
+     background-color: antiquewhite;
+}
+div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+p{
+    background-color: mediumaquamarine;
+}
+
+p span/* sélectionne les span contenus dans le "p" */
+{background-color: yellow;}
+
+.boite
+{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background: url(../float/MicrosoftTeams-image.png);
+    background-repeat: no-repeat;
+    border: 5px double orchid;
+    margin: 2vh;
+    float: left;
+    /* effet flottabt qui permet de placer des balise côte à côte alors que selon le flux du web standart les élèment se place les uns au-dessus de des autre */
+    transition: margin 1.5s;/* proprietée et durée */
+
+}
+/* 
+        https://outils-css.aliasdmc.fr/unites-de-longueurs-css.php
+        EM: Relative to the parent element
+ 
+        REM: Relative to the root element (HTML tag)
+ 
+        %: Relative to the parent element
+ 
+        VW: Relative to the viewport’s width
+ 
+        VH: Relative to the viewport’s height
+    */
+
+    .boite:hover{/* le nom de la class est "hover" permet de modifie un affichage au survol de la souris */
+        margin-top: 10vh;
+
+    }
+.clear{
+    clear: both;/* supprime l'effet flottant*/
+    }

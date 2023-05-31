@@ -1,0 +1,41 @@
+*{/* l'etoile ou asterique selectionne tous les element de ma page html */
+    font-family: fantasy;    
+}
+body{
+    width: 50%; /* largeur de ma page de 50% de l'ecran */
+    margin: auto; /* gestion automatique des marges pour que mon tableau soit centré */
+    /*  */
+}
+table{
+    border: 4px solid navy;/* bordur -3 valeurs épaisseur / type de trait / couleur */
+    border-collapse: collapse;/* par defaut la bordure contient 2 trait, pour que le trait soit unique on utilise la propriéte "collaps" */
+    width: 90%;/* largeur du tableau par rapport a son contenant donc ici au body /!\ ne pas oublier la régle de l'héritage en CSS */
+    margin: 25px;/* marge exterieure de la balise */
+}
+thead, tfoot{
+    background-color: darkslateblue;
+    border: 2px solid blue;
+}
+th{
+    border: 2px dotted black;/* dotted = pointillés */
+    padding: 4px;
+    background-color:rgb(25, 40, 100);/*  couleur en RGB = Red, Green, Blue */
+    width: 5%;
+}
+td{
+    font-size: 100%;
+    border: 1px dotted #6a5acd;
+    text-align: center;
+    padding: 5px;
+}
++
+td::first-child{/* 1er <td> pour aligner le txte à gauche de la 1er cellule de chaque rangée */
+    text-align: left;
+    background-color: brown;
+}
+caption{
+    font-size: 30px;
+    color: aqua;
+    padding: 0.5em;
+    background-color: coral;
+}

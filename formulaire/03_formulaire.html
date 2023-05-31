@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire html</title>
+    <link rel="stylesheet" href="03_formulaire.css">
+</head>
+<body>
+    <!-- je declare mon formulaire avce la balise form -->
+    <form>
+        
+        <!-- 2 manières de déclarer le label -->
+        <!-- pseudo -->
+        <label for="pseudo">Pseudonyme
+        <input type="text" id="pseudo" name="pseudo"
+        placeholder="tape bouffon" required>
+        <!-- l'id combiné a for permet de lier le label à l'input type précise le type de donée récuperée, name sera utilisé en php pour récupérée la donnée, le placehholder contoent le txte qui apparait dans l'input required précise au nav que le champs est à renseigner OBLIGATOIREMENT -->
+        </label>
+        <br>
+        
+        <!-- mot de passe -->
+        <label for="mdp">
+            <!-- lable au dessus de l'inpit -->
+            mot de passe <span title="le mot de passe peut contenit ...">*
+               </span>
+            </label>
+
+            <input type="password" id="mdp" name="mdp" placeholder="partage ton mots de passe" required>
+            <br>
+            <br>
+
+            <!-- email -->
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu fait mal à la tête mon reuf">
+            <br>
+            <br>
+
+            <!-- ficher -->
+
+            <label for="photo">Ta face</label>
+            <input type="file" id="photo" name="photo">
+            <br>
+            <br>
+
+            <fieldset>
+                <legend>Choix multiples</legend>
+                <!-- case à coher checkbox -->
+                <!-- plusieur choix -->
+                <label for="q1">Quelle destination choississez vous ?</label>
+                <p> 
+                    <!-- input *3 -->
+                    <input type="checkbox" id="q1" name="reponse01">TA MAMAN
+                    <input type="checkbox" id="q1" name="reponse02">FLEURY
+                    <input type="checkbox" id="q1" name="reponse03">BD
+
+                </p>
+                <br>
+                <!-- cases à cochr radio -->
+                <label for="q2">Qui seront vos accompagnateur ?</label>
+                <p>
+                    <input type="radio" id="q2" name="reponse">TON REUF
+                    <input type="radio" id="q2" name="reponse" checked>TA MEUF
+                    <input type="radio" id="q2" name="reponse">TON POTE
+                    <!-- CHECKED veut dire cocher par défaut -->
+
+                </p>
+                <!-- un seul choix avec les bouton radio on force l'utilisateur à choisir -->
+                <br>
+
+                <!-- zone de txte -->
+                <label for="commentaires">ta un truc a dire mon reuf ?</label>
+                <textarea name="commentaires" id="" cols="80" rows="8"></textarea>
+                <!-- rows= nombre de lignes
+                     cols= nombre de colonnes / caractères
+                 -->
+
+                 <!-- bouton d'envoie du formulaire -->
+
+                 <input type="submit" name="inscrption" value="Envoyer">
+                 
+                 <!-- bouton pour vider le formulaire -->
+
+                 <input type="reset" name="annuler" value="annuler">
+                  <br>
+                  <br><br>
+                  
+                  site a regarde pour reviser <br>
+                   
+                  <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank"
+            rel="noopener noreferrer">W3school, les types d'input</a>
+
+        <br>
+
+        <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input" target="_blank"
+            rel="noopener noreferrer">Petite documentaton</a>
+
+            </fieldset>
+
+
+
+    </form>
+</body>
+</html>
