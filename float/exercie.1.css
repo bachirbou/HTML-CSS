@@ -1,0 +1,90 @@
+.vert{
+    height: 10em;
+    width: 10em;
+    border: 2em;
+    margin: 0.2em;
+    text-align: center;
+    border-radius: 25%;
+    font-size: 120%;
+    color: white;
+    float: left;
+}
+.bleu{
+    height: 10em;
+    width: 10em;
+    border: 2em;
+    margin: 0.2em;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 120%;
+    color: white;
+    float: left;
+}
+.bleu{
+    background: blue;
+}
+.vert{
+    background-color: green;
+}
+.clear{
+    clear: both;
+}
+
+.rouge{
+    height: 10em;
+    width: 10em;
+    border: 2em;
+    margin: 0.2em;
+    text-align: center;
+    border-radius:0 30%;
+    font-size: 120%;
+    color: white;
+    float: left;
+}
+.rouge{
+    background: red;
+}
+.violet{
+    height: 10em;
+    width: 10em;
+    border: 2em;
+    margin: 0.2em;
+    text-align: center;
+    border-radius:0 35%;
+    font-size: 120%;
+    color: white;
+    float: left;
+}
+.violet{
+    background: purple;
+}
+.rose{
+    height: 10em;
+    width: 10em;
+    border: 2em;
+    margin: 0.2em;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 120%;
+    color: white;
+    float: left;
+}
+.rose{
+    background: pink;
+}
+
+.clear{
+    clear: both;
+}
+.empty{
+    
+    height: 10em;
+    width: 10em;
+    border: 2em;
+    margin: 0.2em;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 120%;
+    color: white;
+    float: left;
+}

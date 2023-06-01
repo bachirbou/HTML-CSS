@@ -1,0 +1,22 @@
+.c1, .c2{
+    height: 10em;/* h10em */
+    width: 10em;/* w10em */
+    border: 0.2em solid #000;/* bd0.2em */
+    margin: 0.2em;/* m0.2em */
+    float: left;
+    text-align: center;
+    border-radius: 20%;
+    font-size: 120%;
+    color: white;
+}
+
+.c1{
+    background: purple;
+}
+.c2{
+    background-color: green;
+}
+.clear{
+    clear: both;
+}
+
