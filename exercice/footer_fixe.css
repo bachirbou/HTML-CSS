@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+
+}
+.conteneur{
+    min-height: 100px;
+}
+header{
+    height: 100px;
+    background-color: rgb(218, 20, 50);
+}
+footer{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: lightblue;
+    }

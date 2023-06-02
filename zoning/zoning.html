@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="zoning.css">
-    <title>Zoning</title>
+    <title>zoning 2</title>
+    <link rel="stylesheet" href="zoning2.css">
 </head>
+
 <body>
-    <!-- div#contenu>header>p^nav>p^section>p^footer>p -->
-    <!-- Remonter d'un élèment enfant avec "^" -->
-    <div id="contenu">
-        <header>
-            <p>Haut / Header</p>
-        </header>
-        <nav>
-            <p>Menu / Nav</p>
-        </nav>
+    <!-- div#conteneur>header+nav+section>div*6^footer -->
+    <div id="conteneur">
+        <header>Haut</header>
+
+        <nav>Menu</nav>
+
         <section>
-            <p>Milieu</p>
+            <div class="a">A</div>
+            <div class="b">B</div>
+            <div class="clear"></div>
+
+            <div class="c">C</div>
+            <div class="d">D</div>
+            <div class="clear"></div>
         </section>
-        <footer>
-            <p>Bas / Footer</p>
-        </footer>
+        <footer>Bas</footer>
     </div>
-    
 </body>
+
 </html>

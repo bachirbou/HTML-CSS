@@ -1,0 +1,42 @@
+#conteneur{
+    width: 960px;
+    background-color: aquamarine;
+    color: #fff;
+    margin: 0 auto;
+}
+header{
+    background-color: darkslateblue;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+section{
+    height: 500px;
+    background-color: gray;
+    margin: 10px;
+}
+.Zone{
+    bottom: 1px solid;
+    float: right;
+    height: 248px;
+    width: 468px;
+}
+
+.Milieu{
+    background-color: blue;
+    display: ;
+}
+
+.Gauche{
+    background-color: blueviolet;
+}
+
+.bas{
+    background-color: orange;
+}
+
+
+
+.clear{
+    clear: both;
+}
